@@ -1,8 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
-
 module "network" {
   source              = "Azure/network/azurerm"
   resource_group_name = var.resource_group_name
